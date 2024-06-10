@@ -1,13 +1,114 @@
+/* src/index.css */
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: #d1dbe4;
+
+
+}
+/* p {
+  background-image: url('images.jpg');
+} */
+
+/* .container {
+  max-width: 800px;
+  margin-top: 50px; */
+
+h1{
+  color: rgb(1, 54, 54);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh;
+  padding-left: 500px;
+}
+#title{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* min-height: 10vh; */
+  /* padding-left: 500px; */
+}
+.mb-3{
+  color: rgb(8, 6, 6);
+  font-size: large;
+  margin        : 10px;
+  width: 100vh;
+   
+  display: flex;
+justify-content: center;
+align-items: center;
+
+  
+}
+button{
+  background-color: #04AA6D; /* Green */
+  border: none;
+  color: white;
+  padding: 16px 30px;
+  text-align: center;
+  text-decoration: none;
+  display: flex;
+  font-size: 16px;
+  border-radius: 12px;
+  box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2), 0 6px 20px 0 rgba(0,0,0,0.19);
+  float: inherit;
+  position: absolute;
+  /* top: 25%;
+  left: 30%; */
+}
+button:hover {
+  background-color: rgb(129, 115, 233);
+  color: white;
+}
+.container mt-5{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+/* src/index.css */
+
+body {
+  background-color: #f8f9fa;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.container {
+  max-width: 800px;
+  margin-top: 50px;
 }
+
+@media (max-width: 767px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+  }
+}
+.text-center{
+  display: flex;
+  text-align: center;
+  justify-content: center;
+
+}
+.container d-flex justify-content-center align-items-center min-vh-100{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+.col-md-6{
+  /* display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 10vh; */
+}
+
+.text-center {
+  display: flex;
+  text-align: center;
+  align-content: flex-start;
+  align-items: stretch;
+  flex-wrap: nowrap;
+  flex-direction: row;
+}
+/* src/index.css */
+
